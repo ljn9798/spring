@@ -21,7 +21,7 @@ public class StudentController {
 
     @RequestMapping(value = "/qryById")
     public Student qry(int id){
-        System.out.println("修改123");
+        System.out.println("lanjunning+与衰竭");
         return service.queryById(id);
     }
 }
